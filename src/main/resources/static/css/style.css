@@ -38,14 +38,16 @@ body{
     max-height: 86vh;
 }
 #textBox{
+    box-sizing: border-box;
     /*background-color: rgba(0, 255, 255, 0.1);*/
     min-height: 100%;
     min-width: 100%;
+    padding: 1vh 1.5vw;
 }
 #textEnterContainer{
     padding: 0;
     margin: 0;
-    background-color: rgba(150, 150, 150, 1);
+    /*background-color: rgba(150, 150, 150, 1);*/
     min-width:76vw;
     min-height: 4vh
 }
@@ -62,6 +64,25 @@ body{
     border-radius: 0 0 10px 0;
     min-height: 4vh;
     min-width: 7vw;
+}
+.msgContainer{
+    color: white;
+    background-color: burlywood;
+    padding: 0.4vh 3vw 0.4vh 1vw;
+    border-radius: 0 15px 15px 10px;
+    width: fit-content;
+    max-width: 55%;
+}
+.msgSender{
+    font-size: larger;
+    font-weight: bold;
+}
+.msgContent{
+    text-align: justify;
+}
+.msgTime{
+    font-size: small;
+    text-align: end;
 }
 
 
