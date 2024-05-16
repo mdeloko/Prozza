@@ -178,4 +178,15 @@ buildNumber.properties
 .history
 .ionide
 
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,intellij,java,maven
